@@ -50,6 +50,8 @@ body {
   border-bottom: 1px solid #e5e5e5;
   max-width: 680px;
   margin: 0 auto;
+  background-color: #f5f0f6;
+
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -89,8 +91,22 @@ body {
 .nav-pills a {
     color: #9a3870;
 }
-
+a{
+    color: #9a3870;
+}
+a:hover{
+    color: #553555;
+}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
 
     background-color:#9a3870;
-    }
+}
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+    color: #9a3870;
+    background-color:#f5f0f6;
+}
+
+.btn-default {
+    background: #ffffff;
+    box-shadow: none;
+}
